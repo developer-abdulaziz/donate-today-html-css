@@ -101,7 +101,7 @@ main {
     text-align: center;
     max-width: 600px;
     margin: 0 auto;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 .section_title h2 {
     font-style: normal;
@@ -200,13 +200,16 @@ main {
     border-radius: 5px;
 }
 
-/*================== donation section one  ================*/
+/*================== donation section one and two  ================*/
 .donation {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 80px;
-    margin-bottom: 50px;
+    margin-bottom: 120px;
+}
+.donation > * {
+    flex-basis: 100%;
 }
 .donation_article {
     display: flex;
@@ -214,6 +217,10 @@ main {
     align-items: flex-start;
     justify-content: center;
     gap: 8px;
+}
+.donation_img img {
+    width: 456px;
+    height: 477px;
 }
 .donation_article h1 {
     font-style: normal;
@@ -226,4 +233,25 @@ main {
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
+}
+
+/*================== Update section  ================*/
+.update_mail {
+    max-width: 700px;
+    height: 200px;
+    margin: 0 auto;
+    /* padding: 80px 180px; */
+    background: rgb(255, 244, 214);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.update_mail input {
+    width: 275px;
+    height: 48px;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    padding-left: 8px;
 }
