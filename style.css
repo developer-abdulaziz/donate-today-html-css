@@ -27,13 +27,15 @@ html {
 img {
     max-width: 100%;
 }
-h1, h2, h3 {
+/* h1, h2, h3 {
     font-family: var(--ffamily--inter);
     padding-bottom: 10px;
-}
+} */
 p {
-    font-family: var(--ffamily--poppins);
     color: #707070;
+}
+body {
+    font-family: var(--ffamily--poppins);
 }
 .btn_primary {
     background: var(--primary-color);
@@ -80,16 +82,6 @@ header {
     text-align: center;
     color: #FFFFFF;
 }
-/* .banner a {
-    background: var(--primary-color);
-    padding: 10px 30px;
-    border-radius: 5px;
-    color: #FFFFFF;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    font-family: var(--ffamily--inter);
-} */
 
 /*==================  ================*/
 
@@ -103,6 +95,7 @@ main {
 .donate_today {
     max-width: 600px;
     margin: 0 auto;
+    padding-bottom: 100px;
 }
 .section_title {
     text-align: center;
@@ -140,6 +133,7 @@ main {
     color: #707070;
     width: 136px;
     height: 123px;
+    padding: 0px 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -164,4 +158,42 @@ main {
 .donate hr {
     color: #B3B3B3;
     margin-bottom: 24px;
+}
+
+/*================== service section  ================*/
+
+.service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.service_box {
+    width: 360px;
+    height: 352px;
+    padding: 60px 24px;
+}
+.service_box h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+    margin: 30px 0px 16px 0px;
+}
+.service_box p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.one{
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+.two{
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+}
+.three{
+    background: rgb(255, 244, 214);
+    border-radius: 5px;
 }
