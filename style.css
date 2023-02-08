@@ -161,7 +161,9 @@ main {
 }
 
 /*================== service section  ================*/
-
+.service_section{
+    margin-bottom: 100px;
+}
 .service {
     display: flex;
     align-items: center;
@@ -196,4 +198,32 @@ main {
 .three{
     background: rgb(255, 244, 214);
     border-radius: 5px;
+}
+
+/*================== donation section one  ================*/
+.donation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 50px;
+}
+.donation_article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+}
+.donation_article h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+}
+.donation_article p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
 }
